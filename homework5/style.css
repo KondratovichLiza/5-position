@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7CDAEF;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    position: relative;
+}
+
+.container img {
+    position: absolute;
+}
+
+.cloud-one {
+    top: 45px;
+    right: -156px;
+    z-index: 1;
+}
+
+.cloud-two {
+    top: 283px;
+    left: -205px;
+}
+
+.cloud-three {
+    top: 554px;
+    right: -206px;
+}
+
+.blue {
+    position: relative;
+    background-color: rgb(14, 73, 126, 70%);
+    padding: 99px 78px 396px 78px;
+    top: 104px;
+}
+
+h1 {
+    font-family: Play;
+    font-size: 40px;
+    line-height: 46px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+h2 {
+    font-family: Play;
+    font-size: 32px;
+    line-height: 37px;
+    color: #fff;
+    padding: 10px 0 51px 0;
+}
+
+p {
+    font-family: Play;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    padding-bottom: 26px;
+}
+
+.blue img {
+    position: relative;
+    bottom: 44px;
+}
+
+.grass {
+    background-image: url(./images/grass.png);
+    height: 132px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
